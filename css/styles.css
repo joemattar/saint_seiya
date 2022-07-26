@@ -88,3 +88,15 @@ ul.header_links {
 .logo {
     height: 50px;
 }
+
+.portraits {
+    display: flex;
+    gap: 32px;
+}
+
+.profiles_section {
+    padding: 32px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
