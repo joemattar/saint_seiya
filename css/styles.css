@@ -39,6 +39,15 @@ ul.header_links {
     gap: 50px;
 }
 
+.bio.avatar {
+    width: 300px;
+}
+
+.bio.text {
+    text-align: justify;
+    width: 300px;
+}
+
 .header_logo {
     margin-right: auto;
 }
@@ -92,6 +101,11 @@ ul.header_links {
 .portraits {
     display: flex;
     gap: 32px;
+}
+
+.portrait {
+    display: flex;
+    flex-direction: column;
 }
 
 .profiles_section {
