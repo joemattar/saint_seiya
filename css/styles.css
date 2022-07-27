@@ -48,7 +48,7 @@ ul.header_links {
     padding: 0px;
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 16px;
 }
 
 .bio.avatar {
@@ -75,6 +75,7 @@ ul.header_links {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* gap: 32px; */
 }
 
 .call_to_action_section {
@@ -89,7 +90,6 @@ ul.header_links {
     font-weight: 700;
 }
 
-
 .header_logo {
     margin-right: auto;
 }
@@ -97,7 +97,7 @@ ul.header_links {
 .header_link {
     text-decoration: none;
     font-weight: 900;
-    font-size: 1.25em;
+    font-size: 1em;
     color: white;
     margin-left: auto;
 }
