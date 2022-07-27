@@ -28,7 +28,7 @@ button:active {
 footer {
     background-color: #4f3f7d;
     color: white;
-    padding: 16px 10%;
+    padding: 32px 10%;
     font-weight: 400;
     font-size: 0.75em;
     display: flex;
@@ -74,10 +74,11 @@ ul.header_links {
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .call_to_action_section {
-    padding: 32px 10%;
+    padding: 96px 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +163,7 @@ ul.header_links {
 }
 
 .quote_section {
-    padding: 32px 10%;
+    padding: 64px 10%;
     background-color: #4f3f7d;
     color: white;
     display: flex;
