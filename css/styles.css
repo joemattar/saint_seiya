@@ -65,6 +65,7 @@ ul.header_links {
 
 .call_to_action {
     color: white;
+    margin-right: 32px;
     display: flex;
     flex-direction: column;
     gap: 16px;
