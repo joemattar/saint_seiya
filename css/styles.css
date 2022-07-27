@@ -52,12 +52,14 @@ ul.header_links {
 }
 
 .bio.avatar {
-    width: 300px;
+    min-width: 300px;
+    max-width: 350px;
 }
 
 .bio.text {
     text-align: justify;
-    width: 300px;
+    min-width: 300px;
+    max-width: 350px;
 }
 
 .call_to_action {
@@ -155,6 +157,7 @@ ul.header_links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 32px;    
 }
 
