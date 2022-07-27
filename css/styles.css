@@ -9,6 +9,7 @@ button {
     padding: 8px 24px;
     background-color: #4f3f7d;
     color: white;
+    white-space: nowrap;
     font-weight: 700;
     border-radius: 8px;
     border-style: solid;
@@ -142,6 +143,7 @@ ul.header_links {
     font-weight: 700;
     font-size: 1.25em;
     text-align: center;
+    white-space: nowrap;
 }
 
 .logo {
@@ -181,6 +183,7 @@ ul.header_links {
     color: white;
     display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
 .quote_text {
@@ -191,5 +194,6 @@ ul.header_links {
 .quote_author {
     font-size: 1.75em;
     font-weight: 700;
+    white-space: nowrap;
     align-self: flex-end;
 }
