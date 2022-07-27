@@ -57,7 +57,7 @@ ul.header_links {
 
 .bio.text {
     text-align: justify;
-    width: 400px;
+    width: 300px;
 }
 
 .call_to_action {
@@ -145,13 +145,17 @@ ul.header_links {
 }
 
 .portraits {
+    width: 100%;
     display: flex;
-    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;    
 }
 
 .portrait {
     display: flex;
     flex-direction: column;
+    gap: 32px;
 }
 
 .profiles_section {
