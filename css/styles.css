@@ -139,6 +139,7 @@ ul.header_links {
 .hero_title {
     font-weight: 700;
     font-size: 1.25em;
+    text-align: center;
 }
 
 .logo {
